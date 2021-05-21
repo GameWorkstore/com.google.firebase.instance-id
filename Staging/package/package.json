@@ -1,25 +1,21 @@
 {
-  "name": "com.google.external-dependency-manager",
-  "version": "1.2.165",
-  "displayName": "External Dependency Manager for Unity",
+  "name": "com.google.firebase.instance-id",
+  "version": "7.2.0",
+  "displayName": "Firebase Instance ID",
   "keywords": [
     "Google",
-    "Android",
-    "Gradle",
-    "Cocoapods",
-    "Dependency",
-    "Unity Package Manager",
-    "Unity",
-    "vh-name:play-services-resolver",
-    "vh-name:unity-jar-resolver",
-    "vh-name:external-dependency-manager",
-    "vh-name:External Dependency Manager for Unity"
+    "Firebase",
+    "InstanceId",
+    "vh-name:FirebaseInstanceId",
+    "vh-name:Firebase Instance ID"
   ],
   "author": {
     "name": "Google LLC",
-    "url": "https://github.com/googlesamples/unity-jar-resolver"
+    "url": "https://firebase.google.com/docs/reference/unity/namespace/firebase/instance-id"
   },
-  "description": "External Dependency Manager for Unity (EDM4U) can be used by any Unity plugin that requires Android specific libraries (e.g. AARs), iOS CocoaPods, version management of transitive dependencies, and/or management of Unity Package Manager registries.",
+  "description": "You can use Instance ID to test Firebase A/B Testing or provide a unique identifier for each app instance and a mechanism to authenticate and authorize actions like sending a message via Cloud Messaging.",
   "unity": "2017.1",
-  "dependencies": {}
+  "dependencies": {
+    "com.google.firebase.app": "7.2.0"
+  }
 }
